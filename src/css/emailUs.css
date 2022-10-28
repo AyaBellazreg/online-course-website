@@ -1,0 +1,44 @@
+
+.contact input[type="text"], .contact input[type="email"]{
+    border:none;
+    padding:10px 20px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    margin-bottom: 40px;
+    outline: none;
+    display: block;
+    max-width: 400px;
+    border-radius:15px;
+    width: 400px;
+}
+.contact textarea{
+    max-width: 400px;
+    resize: vertical;
+    padding:15px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    height:150px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.email-us button{
+    display: block;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    .email-us{
+        overflow: hidden;
+    }
+    .contact input[type="text"], .contact input[type="email"]{
+        max-width: 300px;
+    }
+    .email-us button{
+       display: block;
+       max-width: 300px;
+       margin-bottom: 30px;
+    }
+    .contact textarea{
+        max-width: 300px;
+    }
+}

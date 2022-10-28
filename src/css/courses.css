@@ -1,0 +1,20 @@
+
+.courses{
+    background-color:#007bff;
+    height: 100vh;
+}
+.courses-box{
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 40px;
+    box-shadow: -3px 2px 8px 0px #888888;
+    background-color: #fff;
+}
+.courses-box h2{
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.courses-box h5{
+    margin: 20px 0;
+}
